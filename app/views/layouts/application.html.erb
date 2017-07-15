@@ -9,6 +9,16 @@
   </head>
 
   <body>
+    <%= link_to "Home", root_path %>
+    |
+    <%= link_to "Movie Outlines", movie_outlines_path %>
+    |
+    <%= link_to "TV Show Outlines", tv_outlines_path %>
+    |
+    <%= link_to "Glossary", glossary_path %>
+    |
+    <%= link_to "Log In / Sign Up", login_signup_path %>
+
     <%= yield %>
   </body>
 </html>
